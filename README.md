@@ -6,8 +6,8 @@ I was thinking about creating a tool that will help find bugs with similar bug d
 I brought this up to my teammates for SOFI 2018 hackthon, then here it is.
 for POC, simply used "Levenshtein Distance", aka "Edit Distance".
 
-- Many thanks to [Matt Fang](https://github.com/mattqfang) and Keith Rogers for coding and testing the JIRA REST API part to retrieve Jira bugs!    :+1:  :shipit:
-- Many thanks to Margaret Yang and myself for coding and testing the similarity search part!   :+1:  :shipit:
+- Many thanks to [Matt Fang](https://github.com/mattqfang) and [Keith Rogers](https://github.com/keith-rogers) for coding and testing the JIRA REST API part to retrieve Jira bugs!    :+1:  :shipit:
+- Many thanks to [Margaret Yang](https://github.com/margaretycf) and [myself](https://github.com/gli00001) for coding and testing the similarity search part!   :+1:  :shipit:
 
 
 Wanna try out?
