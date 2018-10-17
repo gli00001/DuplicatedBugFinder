@@ -34,7 +34,7 @@ BASE64ENCODED="eHl6OjEyMw=="
    #### you can get the Base64Encoded from [online tool](https://www.base64encode.org) after inputting "xyz:123", assuming 'xyz' is your username and '123' is the password
 
 ```
-JIRA_HOSTNAME="www.dummySoFiJira.com" # I will be surprised if my coworker pings me for the real value, (⌐■_■) 
+JIRA_HOSTNAME="www.dummySoFiJira.com" # I will be surprised if you ask me for the real value, (⌐■_■) 
 ```
 
 ## execute:
