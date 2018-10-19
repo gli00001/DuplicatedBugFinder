@@ -9,6 +9,7 @@ for POC, simply used "Levenshtein Distance", aka "Edit Distance".
 - Many thanks to [Matt Fang](https://github.com/mattqfang) and [Keith Rogers](https://github.com/keith-rogers) for coding and testing the JIRA REST API part to retrieve Jira bugs!    :+1:  :shipit:
 - Many thanks to [Margaret Yang](https://github.com/margaretycf) and [myself](https://github.com/gli00001) for coding and testing the similarity search part!   :+1:  :shipit:
 
+Hopefully this tool can help developers/QAs/PMs a  bit. 
 
 Wanna try out?
 
