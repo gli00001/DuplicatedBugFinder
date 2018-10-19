@@ -9,7 +9,11 @@ for POC, simply used "Levenshtein Distance", aka "Edit Distance".
 - Many thanks to [Matt Fang](https://github.com/mattqfang) and [Keith Rogers](https://github.com/keith-rogers) for coding and testing the JIRA REST API part to retrieve Jira bugs!    :+1:  :shipit:
 - Many thanks to [Margaret Yang](https://github.com/margaretycf) and [myself](https://github.com/gli00001) for coding and testing the similarity search part!   :+1:  :shipit:
 
-Hopefully this tool can help developers/QAs/PMs a  bit. 
+Hopefully this tool can help
+- developers reduce repeated work
+- QAs find similar test plans
+- PMs link related issues together
+ 
 
 Wanna try out?
 
@@ -49,4 +53,10 @@ java -jar -DjiraHost="${JIRA_HOSTNAME}" -DauthHeaderValue="Basic ${BASE64ENCODED
 http://localhost:8080/issue/SOFI-54499    for default top 10 result
 http://localhost:8080/issue/SOFI-54499/5  for requested top 5  result
 ```
+
+# contacts
+- [Me](https://github.com/gli00001) 
+- [Matt Fang](https://github.com/mattqfang) 
+- [Margaret Yang](https://github.com/margaretycf) 
+- [Keith Rogers](https://github.com/keith-rogers) 
 
