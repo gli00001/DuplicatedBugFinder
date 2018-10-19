@@ -10,10 +10,9 @@ for POC, simply used "Levenshtein Distance", aka "Edit Distance".
 - Many thanks to [Margaret Yang](https://github.com/margaretycf) and [myself](https://github.com/gli00001) for coding and testing the similarity search part!   :+1:  :shipit:
 
 Hopefully this tool can help
-- developers reduce repeated work
-- QAs find similar test plans
-- PMs link related issues together
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `developers reduce repeated work`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `QAs find similar test plans`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `PMs link related issues together`
  
 
 Wanna try out?
