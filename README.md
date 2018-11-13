@@ -36,7 +36,7 @@ JAR_PATH="./target/duplicatedBugFinder-1.0-SNAPSHOT.jar"
 ```
 BASE64ENCODED="eHl6OjEyMw=="
 ``` 
-   #### you can get the Base64Encoded from [online tool](https://www.base64encode.org) after inputting "xyz:123", assuming 'xyz' is your username and '123' is the password
+   #### Base64Encoded from "xyz:123", assuming 'xyz' is your username and '123' is the password, local Postman client can generate that value for you
 
 ```
 JIRA_HOSTNAME="www.dummySoFiJira.com" # I will be surprised if you ask me for the real value, (⌐■_■) 
