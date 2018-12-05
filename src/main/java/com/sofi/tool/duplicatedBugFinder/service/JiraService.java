@@ -94,8 +94,8 @@ public class JiraService {
             log.error("Unknown ticket "+key);
             return null;
         } else if (!node.get("fields").get("issuetype").get("name").asText().equalsIgnoreCase("Bug")){
-            log.error("This ticket "+key+" is not a bug.");
-            return null;
+            log.warn("This ticket "+key+" is not a bug.");
+            //return null;
         }
 
         Issue issue =  jsonToIssue(node);
