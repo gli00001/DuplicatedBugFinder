@@ -3,7 +3,7 @@
 
 After wasting hours on duplicated bugs,  multiple times, 
 I was thinking about creating a tool that will help find bugs with similar bug descriptions, 
-I brought this up to my teammates for SOFI 2018 hackthon, then here it is.
+I brought this up in Company 2018 hackthon, then here it is.
 for POC, simply used "Levenshtein Distance", aka "Edit Distance".
 
 - Many thanks to [Matt Fang](https://github.com/mattqfang) and [Keith Rogers](https://github.com/keith-rogers) for coding and testing the JIRA REST API part to retrieve Jira bugs!    :+1:  :shipit:
@@ -39,7 +39,7 @@ BASE64ENCODED="eHl6OjEyMw=="
    #### Base64Encoded from "xyz:123", assuming 'xyz' is your username and '123' is the password, local Postman client can generate that value for you
 
 ```
-JIRA_HOSTNAME="www.dummySoFiJira.com" # I will be surprised if you ask me for the real value, (⌐■_■) 
+JIRA_HOSTNAME="www.dummyJira.com" # I will be surprised if you ask me for the real value, (⌐■_■) 
 ```
 
 ## execute:
@@ -48,10 +48,10 @@ java -jar -DjiraHost="${JIRA_HOSTNAME}" -DauthHeaderValue="Basic ${BASE64ENCODED
 ```
 
                                         
-## go to browser, for example, to find if bug SOFI-54499 has duplicates or similar matches :
+## go to browser, for example, to find if bug BUG-54499 has duplicates or similar matches :
 ```
-http://localhost:8080/issue/SOFI-54499    for default top 10 result
-http://localhost:8080/issue/SOFI-54499/5  for requested top 5  result
+http://localhost:8080/issue/BUG-54499    for default top 10 result
+http://localhost:8080/issue/BUG-54499/5  for requested top 5  result
 ```
 
 # contacts
